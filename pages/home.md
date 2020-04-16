@@ -7,8 +7,7 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
 
-Beverly Rhoden is a Licensed and knowledgeable agent.
+# Beverly Rhoden is a Licensed and knowledgeable agent.
 
 A resource for Medicare Advantage, Medicare Supplements, Life Insurance and other coverage.
