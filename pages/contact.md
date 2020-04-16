@@ -8,8 +8,6 @@ eleventyNavigation:
   key: Contact
   order: 3
 ---
-The contact form on this page uses
-[Netlify Forms](https://www.netlify.com/docs/form-handling/) to process
-submissions, and saves them in the connected Netlify account where
-notifications can optionally be configured. Each submission is passed through a
-spam filter and if flagged, will display a CAPTCHA challenge to the user.
+Please let me know if I can help you with questions related to Medicare Advantage, Medicare Supplements, Life Insurance and other coverage.
+
+Call me during normal business hours at XXX-XXX-XXXX or feel free to use the form below. I'll try to respond withing a day.
