@@ -189,7 +189,7 @@ button {
 		font-size: 1.1rem;
 	}
 
-	.main-container {
+	.main-container, footer {
 		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
