@@ -8,6 +8,8 @@
   box-sizing: border-box;
 }
 
+img {width: 50%;} /* temporary by design */
+
 html,
 body {
 	padding: 0;
