@@ -8,6 +8,8 @@ eleventyNavigation:
   order: 0
 ---
 
+![Beverly Rhoden](/static/img/BRphoto.jpg)
+
 # Beverly Rhoden is a Licensed and knowledgeable agent.
 
 A resource for Medicare Advantage, Medicare Supplements, Life Insurance and other coverage.
