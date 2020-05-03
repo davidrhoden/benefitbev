@@ -4,14 +4,8 @@
 	{% include "components/head.njk" %}
 
 	<body>
+		{% include "components/header.njk" %}
 		<section class="main-container">
-			<header>
-			<em>
-				<a href="{{ '/' | url }}">Beverly Rhoden: <span></span>Benefits Counselor</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
-
 		<main>
 			{{ layoutContent | safe }}
 		</main>

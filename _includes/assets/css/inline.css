@@ -25,6 +25,22 @@ body {
 	background-color: var(--secondary);
 }
 
+header {
+	background: var(--highlight);
+	padding: 0 2em;
+}
+
+header em a[href],
+header em a[href]:visited {
+	color: white;
+	transition: color .3s ease;
+}
+
+header em a[href]:hover,
+header em a[href]:active {
+	color: var(--primary);
+}
+
 header em span {
 	display: block;
 }
@@ -58,14 +74,9 @@ a[href]:not(:hover) {
 	text-decoration: none;
 }
 
-header,
 main {
 	border-bottom: 1px dotted var(--highlight);
-	padding: 1em 0;
-}
-
-main {
-	padding-bottom: 2em;
+	padding: 1em 0 2em;
 }
 
 footer {
