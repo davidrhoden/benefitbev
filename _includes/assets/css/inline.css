@@ -90,7 +90,7 @@ header nav li a[data-current="current item"] {
 .main-container {
 	background-color: var(--background);
 	margin: .25em auto;
-	padding: 0 1em;
+	padding: 0 2em;
 	width: 98%;
 }
 
