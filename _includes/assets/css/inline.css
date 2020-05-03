@@ -74,7 +74,7 @@ h1 {
 /* Header Logo (style as h2) */
 header > em {
 	display: block;
-	font-family: Spectral, serif;
+	/*font-family: Spectral, serif;*/
 	font-size: 2em;
 	line-height: 1;
 	margin: .67em 0;
