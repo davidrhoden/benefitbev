@@ -30,6 +30,18 @@ header {
 	padding: 0 2em;
 }
 
+header > em {
+	display: block;
+	font-size: 2em;
+	line-height: 1;
+	margin: .67em 0;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+    padding-bottom: 0.4em;
+}
+
 header em a[href],
 header em a[href]:visited {
 	color: white;
@@ -39,10 +51,40 @@ header em a[href]:visited {
 header em a[href]:hover,
 header em a[href]:active {
 	color: var(--primary);
+	text-decoration: none;
 }
 
 header em span {
 	display: block;
+}
+
+/* Header Nav */
+header nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+header nav ul :first-child {
+	margin-left: 0;
+}
+
+header nav li {
+	display: inline-block;
+	margin: 0 .25em;
+}
+
+header nav li a {
+	padding: .25em .5em .25em 0;
+	text-decoration: none;
+}
+
+header nav li a[href]:hover, 
+header nav li a[href]:active {
+	color: white;
+}
+
+header nav li a[data-current="current item"] {
+	font-weight: 700;
 }
 
 .main-container {
@@ -89,45 +131,7 @@ h1 {
     line-height: 1;
 }
 
-/* Header Logo (style as h2) */
-header > em {
-	display: block;
-	/*font-family: Spectral, serif;*/
-	font-size: 2em;
-	line-height: 1;
-	margin: .67em 0;
-	font-weight: 300;
-	font-style: normal;
-	text-decoration: none;
-}
 
-header > em a[href]:hover {
-	text-decoration: none;
-}
-
-/* Header Nav */
-header nav ul {
-	padding: 0;
-	list-style: none;
-}
-
-header nav ul :first-child {
-	margin-left: 0;
-}
-
-header nav li {
-	display: inline-block;
-	margin: 0 .25em;
-}
-
-header nav li a {
-	padding: .25em .5em .25em 0;
-	text-decoration: none;
-}
-
-header nav li a[data-current="current item"] {
-	font-weight: 700;
-}
 
 /* Posts List */
 article {
@@ -213,16 +217,24 @@ button {
 		background-color: var(--secondary);
 	}
 
-	header em span {
-		display: none;
-	}
-
 	.main-container {
 		background: var(--background);
 		width: 66%;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0 3em;
+	}
+
+	header {
+		width: 66%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 3em;
+	}
+
+
+	header em span {
+		display: none;
 	}
 
 	main {
