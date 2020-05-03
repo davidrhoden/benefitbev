@@ -8,8 +8,16 @@ eleventyNavigation:
   order: 0
 ---
 
-![Beverly Rhoden](/static/img/BRphoto.jpg)
+<div class="home-grid">
+<div class="left">
 
-# Beverly Rhoden is a Licensed and knowledgeable agent.
+![Beverly Rhoden](/static/img/BRphoto.jpg)
+</div>
+<div class="right">
+
+<h1>Beverly Rhoden is a Licensed and knowledgeable agent.</h1>
 
 A resource for Medicare Advantage, Medicare Supplements, Life Insurance and other coverage.
+
+</div>
+</div>
