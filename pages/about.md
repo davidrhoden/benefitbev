@@ -2,6 +2,7 @@
 title: About Beverly Rhoden
 date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
+excerpt: I have been in the Employee Benefits Industry for 23 years.  I have experience in all areas of the business including time with a Human Resources department, as a Marketing Assistant, an Office Manager and since 2003 as a Benefits Counselor.
 eleventyNavigation:
   key: About
   order: 1
@@ -12,6 +13,6 @@ After graduating from University of Tennessee, Knoxville with my undergraduate d
 
 After a brief time managing a church office full time and enrolling part time, I joined fellow Unum alum Michael Stalvey in running Boar Enrollment Strategies. I continue to work with Michael for our group clients and I am available to individuals for personal coverage. Please call me if you have questions about Medicare Advantage, Medicare Supplements or Life Insurance.
 
-Beverly Rhoden \
-833-581-2158\
+Beverly Rhoden 
+833-581-2158
 benefitbev@gmail.com

@@ -4,12 +4,25 @@ const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const pluginSEO = require("eleventy-plugin-seo");
 
 module.exports = function(eleventyConfig) {
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+
+  eleventyConfig.addPlugin(pluginSEO, {
+    title: "Beverly Rhoden: Benefits Counselor",
+    description: "Beverly Rhoden is a Licensed and knowledgeable agent. A resource for Medicare Advantage, Medicare Supplements, Life Insurance and other coverage.",
+    url: "https://benefitbev.com",
+    author: "Beverly Rhoden",
+    image: "BRphoto.jpg",
+    options: {
+      titleDivider: "-",
+      imageWithBaseUrl: true
+    }
+  });
   // Merge data instead of overriding
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
