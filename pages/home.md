@@ -7,8 +7,7 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-<div class="home-grid">
-<div class="left">
+
 
 ![Beverly Rhoden](/static/img/BRphoto.jpg)
 
