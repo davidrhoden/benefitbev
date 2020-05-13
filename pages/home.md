@@ -7,7 +7,14 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-![Beverly Rhoden](/static/img/BRphoto.jpg "Beverly Rhoden")
+
+<div class="home-grid">
+<div class="left">
+
+![Beverly Rhoden](/static/img/BRphoto.jpg)
+
+</div>
+<div class="right">
 
 <h1>Beverly Rhoden is a Licensed and knowledgeable agent.</h1>
 
@@ -15,5 +22,4 @@ A Chattanooga native, Beverly has over 20 years of experience. She and her husba
 
 A resource for Medicare Advantage, Medicare Supplements, Life Insurance and other coverage.
 
-</div>
 </div>
