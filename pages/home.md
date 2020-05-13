@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-![](/static/img/BRphoto.jpg)
+![Beverly Rhoden](/static/img/BRphoto.jpg "Beverly Rhoden")
 
 <h1>Beverly Rhoden is a Licensed and knowledgeable agent.</h1>
 
