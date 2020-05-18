@@ -23,7 +23,7 @@ Medicare Questions? Confusion? What is an Advantage Plan? What does Part B cover
 
 Let me help! I have answers. I have access to several insurance carriers and all kinds of plans. If you know the plan and want to enroll yourself, I have options for that as well! If you need to ask me lots of questions, I am happy to help with all of that.
 
-I also have other experts to help you! If I don't have the answers or you have a special situation, I have relationships with partners and resources to go to.
+I also have other experts to help you. If I don't have the answers or you have a special situation, I have relationships with partners and resources to go to.
 
 <!--EndFragment-->
 
