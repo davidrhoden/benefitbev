@@ -15,7 +15,7 @@ eleventyNavigation:
 </div>
 <div class="right">
 
-<h1>Beverly Rhoden is a Licensed and knowledgeable agent.</h1>
+<h1>Beverly Rhoden is a local and knowledgeable agent.</h1>
 
 <!--StartFragment-->
 
