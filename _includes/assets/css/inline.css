@@ -1,12 +1,16 @@
 :root {
-	--primary: #1d3557;
-	--secondary: #3D0064;
-	--highlight: #e63946;
-	--background: #fcf0d7;
+	--primary: black;
+	--secondary: #7209B7;
+	--highlight: #e23c4a;
+	--background: #ffffff;
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
+}
+
+.flex {
+	display: flex;
 }
 
 img {width: 100%;}
@@ -30,7 +34,13 @@ header {
 	padding: 0 2em;
 }
 
-header > em {
+header img {
+    width: 45px;
+    transform: translateY(10px);
+    margin-left: 0.3em;
+}
+
+header em {
 	display: block;
 	font-size: 2em;
 	line-height: 1;
@@ -89,7 +99,7 @@ header nav li a[data-current="current item"] {
 
 .main-container {
 	background-color: var(--background);
-	margin: .25em auto;
+	margin: 0 auto .25em;
 	padding: 0 2em;
 	width: 98%;
 }
