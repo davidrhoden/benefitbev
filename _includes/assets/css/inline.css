@@ -1,8 +1,9 @@
 :root {
-	--primary: black;
+	--primary: #3A0CA3;
 	--secondary: #7209B7;
 	--highlight: #e23c4a;
 	--background: #ffffff;
+	--links: black;
 }
 
 *, *:before, *:after {
@@ -60,7 +61,7 @@ header em a[href]:visited {
 
 header em a[href]:hover,
 header em a[href]:active {
-	color: var(--primary);
+	color: var(--links);
 	text-decoration: none;
 }
 
@@ -114,7 +115,7 @@ p {
 
 a[href],
 a[href]:visited {
-	color: var(--primary);
+	color: var(--links);
 	transition: color .3s ease;
 }
 
@@ -168,7 +169,7 @@ a[rel="tag"]:visited {
 	height: 2em;
   border: 1px solid var(--secondary);
 	background-color: var(--secondary);
-	color: var(--primary);
+	color: var(--links);
   border-radius: .25em;
   text-decoration: none;
 	margin: 0 .5em .5em 0;
@@ -210,12 +211,11 @@ textarea {
 }
 
 button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+	border: 1px solid #4361EE;
+	background-color: #4361EE;
+	color: white;
 	cursor: pointer;
 }
-
 
 
 @media screen and (min-width:768px) {
