@@ -3,7 +3,8 @@
 	--secondary: #7209B7;
 	--highlight: #e23c4a;
 	--background: #ffffff;
-	--links: black;
+	--menu-links: black;
+	--body-links: #e23c4a;
 }
 
 *, *:before, *:after {
@@ -41,6 +42,18 @@ header img {
     margin-left: 0.3em;
 }
 
+header a[href],
+header a[href]:visited {
+	color: var(--menu-links)
+	transition: color .3s ease;
+}
+
+header em a[href]:hover,
+header em a[href]:active {
+	color: var(--primary);
+	text-decoration: none;
+}
+
 header em {
 	display: block;
 	font-size: 2em;
@@ -61,7 +74,7 @@ header em a[href]:visited {
 
 header em a[href]:hover,
 header em a[href]:active {
-	color: var(--links);
+	color: var(--menu-links);
 	text-decoration: none;
 }
 
@@ -115,12 +128,12 @@ p {
 
 a[href],
 a[href]:visited {
-	color: var(--links);
+	color: var(--body-links);
 	transition: color .3s ease;
 }
 
 a[href]:hover, a[href]:active {
-	color: var(--highlight);
+	color: var(--primary);
 }
 
 a[href]:not(:hover) {
@@ -141,8 +154,6 @@ h1 {
     font-size: 2em;
     line-height: 1;
 }
-
-
 
 /* Posts List */
 article {
